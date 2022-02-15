@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
-//qwer
+//qwerqwerasdf
+//
 typedef struct ogretimUyesi{
 	
 	int ID;
