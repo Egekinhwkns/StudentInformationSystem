@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
-
+//qwer
 typedef struct ogretimUyesi{
 	
 	int ID;
@@ -688,7 +688,7 @@ void DersEkle(){
 			}
 		}
 		if(kontrol2!=0) printf("Bu kodda bir ders zaten var. Farkli bir kod girin. ");	
-		else if(kontrol3!=0) printf("Ders kodu negatif bir deðer olamaz. Farkli bir kod girin."); 
+		else if(kontrol3!=0) printf("Ders kodu negatif bir deÃ°er olamaz. Farkli bir kod girin."); 
 		else kontrol++;
 	}
 	
@@ -714,7 +714,7 @@ void DersEkle(){
 			
 			fscanf(ogretmenFile,"%d	 %s  %s  %s\n",&o.ID,o.ad,o.soyad,o.Unvan);
 			if(size==0){		
-				printf("Ogretim uyesi dosyasý bos oldugundan ogretim uyesi secilemiyor.");
+				printf("Ogretim uyesi dosyasÃ½ bos oldugundan ogretim uyesi secilemiyor.");
 				fclose(ogretmenFile);
 				fclose(dersfile);
 				return;
